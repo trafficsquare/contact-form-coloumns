@@ -1,0 +1,27 @@
+.reihe {
+	display: table;
+        width: 100%;
+}
+.spalte-1 {
+    display: table-cell;
+    padding-right: 5px;
+}
+.spalte-2 {
+    display: table-cell;
+    padding-left: 5px;
+}
+/*Responsive Design*/
+@media (max-width: 480px) {
+	.reihe {
+		display: block;
+		border: 1px solid green;
+	}
+	.spalte-1 {
+    display: block;
+    padding-right: 0px;
+	}
+	.spalte-2 {
+    display: tblock;
+    padding-left: 0px;
+	}
+}
